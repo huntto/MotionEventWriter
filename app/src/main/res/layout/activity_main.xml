@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ihuntto.motioneventwriter.PointerView
+        android:id="@+id/pointer_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/save_btn"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/btn_margin"
+        android:background="@drawable/bg_save"
+        android:contentDescription="@string/save" />
+</FrameLayout>
